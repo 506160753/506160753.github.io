@@ -125,9 +125,9 @@ disqus:
 
 duoshuo:
   config: true
-  id: 506160753.github.io
+  id: 506160753
 
 #baidu share config
 baiduShare:
-  config: true
+  config: false
   
