@@ -34,7 +34,8 @@ keywords: Java blog,Post
         <div id="disqus_thread"></div>
         {% else %}
             {% if site.duoshuo.config %}
-            <div class="ds-thread" data-thread-key="{{ page.title }}"></div>
+			<div class="ds-thread" data-thread-key="" data-title="{{ page.title }}" data-url="{{site.url}}{{ post.url }}"></div>
+            <!--<div class="ds-thread" data-thread-key="{{ page.title }}"></div> -->
             {% endif %}
         {% endif %}
     </div>
