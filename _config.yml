@@ -39,10 +39,10 @@ timezone:      null
 
 
 #Site config
-title: LiuXing
+title: liuxing
 description: java技术文章
 keywords: Java
-url: http://506160753.github.io
+url: http://506160753.github.com
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
@@ -61,16 +61,16 @@ nav:
 
 #Author config
 author:
-    name: LiuXing
+    name: LiuXing	
     email: 506160753@qq.com
     imageLink: /images/header.jpg
     simpleIntro: I Have a Dream
     detailIntro:
-      <p>每天都在搬砖的程序猿</p>
-      <p>主要使用Java,会一点Android,正在学习linux</p>
+      <p>天天搬砖的苦逼程序猿</p>
+      <p>主要使用Java,会一点Android,正在学习Linux.</p>
       <p></p>
 
-#Follow me, you can choose your icon by http://506160753.github.io/Font-Awesome/icons/#brand
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
   - class: icon-rss
     url: /atom.xml
@@ -111,18 +111,17 @@ customLinks:
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:
   config: false
-  id: 
+  id: UA-58146229-1
 
 #baidu tongji
 baiduTongji:
   config: true
   id: 247ea172c7aaf8baa3f00691d2335b02
-	
 
 #comment config
 disqus:
   config: false
-  id: 
+  id: piznblog
 
 duoshuo:
   config: true
