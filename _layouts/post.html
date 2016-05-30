@@ -30,12 +30,12 @@ keywords: Java blog,Post
         {% endif %}
     </nav>
 	<div class="comment">
-	{{page.url}}--{{ page.title }}--{{ post.title }}
+	{{site.url}}--{{page.url}}
         {% if site.disqus.config %}
         <div id="disqus_thread"></div>
         {% else %}
             {% if site.duoshuo.config %}
-			<div class="ds-thread" data-thread-key="" data-title="{{ page.title }}" data-url="{{page.url}}"></div>
+			<div class="ds-thread" data-thread-key="" data-title="{{ page.title }}" data-url="{{site.url}}/{{page.url}}"></div>
             <div class="ds-thread" data-thread-key="{{ page.title }}"></div>
             {% endif %}
         {% endif %}
