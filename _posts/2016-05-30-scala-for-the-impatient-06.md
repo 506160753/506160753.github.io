@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ≤‚ ‘
-data 2016-05-30 10:17:20
+data: 2016-05-30 10:17:20
 category: "scala"
 ---
 
