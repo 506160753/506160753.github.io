@@ -122,7 +122,7 @@
         <script type="text/javascript">
             console.log(' %506160753.github.io', 'background-image:-webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );color:transparent;-webkit-background-clip: text;font-size:5em;');
         </script>
-        {% if page.comment %}
+     <!--   {% if page.comment %}
             {% if site.disqus.config %}
             <script type="text/javascript">
                 //disqus
@@ -134,8 +134,8 @@
                         document.getElementsByTagName('body')[0]).appendChild(dsq);
                 })();
             </script>
-            {% endif %}
-            {% if site.duoshuo.config %}
+            {% elseif %}
+                {% if site.duoshuo.config %}
 				<script type="text/javascript"> 
 					var duoshuoQuery = {short_name:'{{ site.duoshuo.id }}'}; 
 					(function() { 
@@ -147,8 +147,10 @@
 						|| document.getElementsByTagName('body')[0]).appendChild(ds); 
 					})(); 
 				</script>
+               {% endif %}
             {% endif %}
         {% endif %}
+		-->
         {% if site.baiduShare.config %}
             <script>
                 window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["weixin","douban","tsina","tqq","renren","mail"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["weixin","douban","tsina","tqq","renren","mail"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];

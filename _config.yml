@@ -129,5 +129,5 @@ duoshuo:
 
 #baidu share config
 baiduShare:
-  config: false
+  config: true
   
