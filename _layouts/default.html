@@ -137,7 +137,7 @@
             {% else %}
                 {% if site.duoshuo.config %}
 				<script type="text/javascript"> 
-					var duoshuoQuery = {short_name:"506160753"}; 
+					var duoshuoQuery = {short_name:'{{ site.duoshuo.id }}'}; 
 					(function() { 
 						var ds = document.createElement('script'); 
 						ds.type = 'text/javascript';ds.async = true; 
@@ -147,9 +147,7 @@
 						|| document.getElementsByTagName('body')[0]).appendChild(ds); 
 					})(); 
 				</script>
-               
-               
-                {% endif %}
+               {% endif %}
             {% endif %}
         {% endif %}
         {% if site.baiduShare.config %}
