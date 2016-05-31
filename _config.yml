@@ -64,6 +64,7 @@ author:
     name: LiuXing	
     email: 506160753@qq.com
     imageLink: /images/header.jpg
+    assets: /assets/
     simpleIntro: I Have a Dream
     detailIntro:
       <p>天天搬砖的苦逼程序猿</p>
